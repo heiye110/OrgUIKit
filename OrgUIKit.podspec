@@ -15,6 +15,9 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '7.0'
 
   s.source_files = 'OrgUIKit/Classes/**/*'
+  s.public_header_files = 'OrgUIKit/Classes/OrgUIKit.h'
+
+  s.dependency 'OrgFoundation'
   
   # s.resource_bundles = {
   #   'OrgUIKit' => ['OrgUIKit/Assets/*.png']
@@ -22,6 +25,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
   
 end

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F2D50B4E30C65E06F201C7F454EFF0D4'
+               BlueprintIdentifier = '311CF8136448AA76189E4FCBBFAF7417'
                BlueprintName = 'OrgUIKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'OrgUIKit.framework'>

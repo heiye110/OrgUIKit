@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "7.0"
   },
-  "source_files": "OrgUIKit/Classes/**/*"
+  "source_files": "OrgUIKit/Classes/**/*",
+  "public_header_files": "OrgUIKit/Classes/OrgUIKit.h"
 }

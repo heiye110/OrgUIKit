@@ -29,6 +29,11 @@
     NSRange range;
     range.location = 0;
     range.length = 2;
+    NSString *aString = @"ff";
+    if ([cString length] == 8) {
+        aString = [cString substringWithRange:range];
+        range.location += 2;
+    }
     //r
     NSString *rString = [cString substringWithRange:range];
     //g
@@ -43,6 +48,7 @@
     [[NSScanner scannerWithString:rString] scanHexInt:&r];  //扫描16进制到int
     [[NSScanner scannerWithString:gString] scanHexInt:&g];
     [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    [[NSScanner scannerWithString:aString] scanHexInt:&a];
     
     return [UIColor colorWithIntRed:r green:g blue:b alpha:a];
 }
